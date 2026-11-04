@@ -1,0 +1,10 @@
+# Keep the compressed OECD input; exclude any extracted local copy.
+/dataset_raw/OECD_premiums_claims_expenses.csv
+
+# Notebook and Python temporary files.
+.ipynb_checkpoints/
+__pycache__/
+*.py[cod]
+
+# Regenerable auxiliary outputs; prepared analysis CSVs remain tracked.
+/output/
